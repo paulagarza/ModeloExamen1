@@ -26,7 +26,6 @@ public:
     Producto(const Producto& other);
 
     // Destructor
-    virtual ~Producto();
 
     // Getters
     string getCodigo() const;
