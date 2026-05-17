@@ -21,7 +21,7 @@ public:
     Ropa(const string& codigo, const string& nombre, double precioBase, int stock, const string& talla, double descuento);
 
     // Destructor
-    ~Ropa() override = default;
+    ~Ropa() = default;
 
     // Getters
     string getTalla() const;

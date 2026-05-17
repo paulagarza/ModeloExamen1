@@ -19,8 +19,8 @@ Producto::Producto(const string &codigo, const string &nombre, double precioBase
 Producto::Producto(const Producto &producto) {
     this->codigo = producto.codigo;
     this->nombre = producto.nombre;
-    this->precioBase=producto.precioBase;
-    this->stock=producto.stock;
+    this->precioBase = producto.precioBase;
+    this->stock = producto.stock;
 }
 
 string Producto::getCodigo() const {
