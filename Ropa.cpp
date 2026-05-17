@@ -50,5 +50,6 @@ void Ropa::vender(int cantidad) {
 
     Producto::vender(cantidad);
     if (getStock() == 0) {
+        cout << "Rotura de stock" << endl;
     }
 }
